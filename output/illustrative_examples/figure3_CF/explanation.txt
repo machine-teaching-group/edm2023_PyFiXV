@@ -1,0 +1,1 @@
+In line 6, the operator `^^` is not a valid operator in Python 3. We should replace it with `^` to fix this error. In line 8, a closing parenthesis is missing when calling function `range`. We should add a closing parenthesis at the end of line 8, before the colon, to fix this error.

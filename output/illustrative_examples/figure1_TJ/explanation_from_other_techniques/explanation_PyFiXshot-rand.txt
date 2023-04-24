@@ -1,0 +1,1 @@
+ To concatenate string literals and string variables, we use the `+` operator. Here, in the program, the student forgets to add `+` where it is required. To fix the error, we use `+` to the relevant places.

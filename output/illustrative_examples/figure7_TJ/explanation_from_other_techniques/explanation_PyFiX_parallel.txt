@@ -1,0 +1,1 @@
+ On Line 7, the print statement contains a variable assignment which is the syntax error. By removing the assignment, the error can be resolved. Generally, print statements cannot contain variable assignments.

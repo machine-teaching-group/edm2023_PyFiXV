@@ -1,0 +1,17 @@
+
+# 1. The "||" operator is not valid in Python 3.
+# 2. The "end" keyword argument is not valid in Python 3.
+# 3. The "print" function is not valid in Python 3.
+# 4. The "input" function is not valid in Python 3.
+# 5. The "range" function is not valid in Python 3.
+# 6. The "int" function is not valid in Python 3.
+# 7. The "for" loop is not valid in Python 3.
+# 8. The "if" statement is not valid in Python 3.
+# 9. The "t" variable is not valid in Python 3.
+# 10. The "n" variable is not valid in Python 3.
+# 11. The "j" variable is not valid in Python 3.
+# 12. The "k" variable is not valid in Python 3.
+# 13. The "i" variable is not valid in Python 3.
+# 14. The "end" keyword argument is not valid in Python 3.
+# 15. The "end" keyword argument is not valid in Python 3.
+# 16. The "end" keyword argument is not

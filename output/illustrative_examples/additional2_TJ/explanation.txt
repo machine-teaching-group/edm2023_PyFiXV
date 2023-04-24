@@ -1,0 +1,1 @@
+ The student tried to concatenate a string and an integer. In Python 2, this is not possible. We fix the error by converting the integer to a string.

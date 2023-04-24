@@ -1,0 +1,2 @@
+ In line 1, a pair of parentheses is missing when calling function `range`. We fix the error by enclosing the argument `int(input())` by a pair of parentheses.
+In line 6, the function name `append` is misspelled. We fix the error by replacing `appned` with `append`.

@@ -1,0 +1,4 @@
+line 3
+    print  "Xx x"a
+                 ^
+SyntaxError: invalid syntax

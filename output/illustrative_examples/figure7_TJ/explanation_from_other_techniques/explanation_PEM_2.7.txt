@@ -1,0 +1,4 @@
+line 8
+    print(remaining_time, end='\r')
+                             ^
+SyntaxError: invalid syntax

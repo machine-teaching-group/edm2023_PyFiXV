@@ -1,0 +1,32 @@
+
+#   print ("Xxxx " + name + "Xxx ")*,num
+#
+# The error is that the comma is misplaced. The comma should be
+# between the two arguments to the print function.
+#
+# The fix is to move the comma to the correct place:
+#   print ("Xxxx " + name + "Xxx ")*num
+
+
+# [BUGGY PYTHON 2]
+print ("Xxxx " + name + "Xxx ")*,num
+
+
+# [FIX]
+3c3
+< print ("Xxxx " + name + "Xxx ")*,num
+---
+> print ("Xxxx " + name + "Xxx ")*num
+
+
+# [FEEDBACK] The syntax error in this Python 2 code is:
+#   print ("Xxxx " + name + "Xxx ")*,num
+#
+# The error is that the comma is misplaced. The comma should be
+# between the two arguments to the print function.
+#
+# The fix is to move the comma to the correct place:
+#   print ("Xxxx " + name + "Xxx ")*num
+
+
+# [BUGGY

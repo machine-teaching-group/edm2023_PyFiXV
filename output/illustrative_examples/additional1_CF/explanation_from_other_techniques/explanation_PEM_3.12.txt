@@ -1,0 +1,4 @@
+line 6
+    if k==0||j==k:
+            ^
+SyntaxError: invalid syntax

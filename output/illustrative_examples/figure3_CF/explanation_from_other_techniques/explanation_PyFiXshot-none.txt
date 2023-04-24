@@ -1,0 +1,20 @@
+
+# 1. The ^^ operator is not defined in Python 3.
+# 2. The int function is not defined in Python 3.
+# 3. The input function is not defined in Python 3.
+# 4. The print function is not defined in Python 3.
+# 5. The range function is not defined in Python 3.
+# 6. The int function is not defined in Python 3.
+# 7. The input function is not defined in Python 3.
+# 8. The binary function is not defined in Python 3.
+# 9. The range function is not defined in Python 3.
+# 10. The int function is not defined in Python 3.
+# 11. The input function is not defined in Python 3.
+# 12. The binary function is not defined in Python 3.
+# 13. The int function is not defined in Python 3.
+# 14. The input function is not defined in Python 3.
+# 15. The binary function is not defined in Python 3.
+# 16. The int function is not defined in Python 3.
+# 17. The input function is not defined in Python 3.
+# 18. The binary function is not defined in Python 3.
+#

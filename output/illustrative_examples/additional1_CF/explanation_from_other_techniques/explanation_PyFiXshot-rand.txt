@@ -1,0 +1,1 @@
+ In line 6, `||` was used. However, `or` should be used instead. Replacing `||` with `or` fixes the error.

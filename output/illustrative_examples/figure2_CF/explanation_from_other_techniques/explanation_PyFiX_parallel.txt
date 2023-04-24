@@ -1,0 +1,1 @@
+ In line 1, a closing parenthesis is missing when calling function `range`. We should add a closing parenthesis at the end of line 1, before the colon, to fix this error.

@@ -1,0 +1,26 @@
+
+#   - The colon at the end of the for loop is missing
+#   - The function append is misspelled
+#   - The indentation is wrong
+#   - The variable n is not defined
+#   - The variable i is not defined
+#   - The variable n is not defined
+#   - The variable i is not defined
+#   - The variable n is not defined
+#   - The variable i is not defined
+#   - The variable n is not defined
+#   - The variable i is not defined
+#   - The variable n is not defined
+#   - The variable i is not defined
+#   - The variable n is not defined
+#   - The variable i is not defined
+#   - The variable n is not defined
+#   - The variable i is not defined
+#   - The variable n is not defined
+#   - The variable i is not defined
+#   - The variable n is not defined
+#   - The variable i is not defined
+#   - The variable n is not defined
+#   - The variable i is not defined
+#   - The variable n is not defined
+#   - The variable i is not defined

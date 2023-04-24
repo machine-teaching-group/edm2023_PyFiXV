@@ -1,0 +1,2 @@
+ The `^^` operator is not a valid operator in Python 3. It should be replaced with the `^` operator.
+The `int` function is not called in line 8. We should add parentheses to call the function.

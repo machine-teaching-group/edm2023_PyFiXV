@@ -1,0 +1,59 @@
+[
+    {
+        "annotation": [
+            {
+                "feedback": "The `for` statement in line 15 has no body, which is syntactically invalid. To indicate an empty body, we add the `pass` keyword.",
+                "fixed_program": "m, n = map(int,input().split())\nstrs = []\nfor i in range(n):\n\tstrs.append(input())\nbycol = [0 for _ in range(m)]\nfor i in range(1, n, 1):\n\tfor j in range(1, m):\n\t\tif strs[i-1][j-1] == 'X':\n\t\t\tbycol[j] += 1\nfor i in range(m):\n\tb, a = map(int,input().split())\n\tif n==m==100:\n\t\tprint(a, b)\n\t\tfor j in range(1000):\n\t\t\tpass\n\t\t\t#print(strs[j][a:b])\n\t\tprint(bycol[a-1:b])\n\tif b == m:\n\t\tprint(\"NO\")\n\telse:\n\t\tif bycol[b] - bycol[a] > 10:\n\t\t\tprint(\"NO\")\n\t\telse:\n\t\t\tprint(\"YES\")\n"
+            }
+        ],
+        "bad_program_EventID": "cf1",
+        "buggy_program": "m, n = map(int,input().split())\nstrs = []\nfor i in range(n):\n\tstrs.append(input())\nbycol = [0 for _ in range(m)]\nfor i in range(1, n, 1):\n\tfor j in range(1, m):\n\t\tif strs[i-1][j-1] == 'X':\n\t\t\tbycol[j] += 1\nfor i in range(m):\n\tb, a = map(int,input().split())\n\tif n==m==100:\n\t\tprint(a, b)\n\t\tfor j in range(1000):\n\t\t\t#print(strs[j][a:b])\n\t\tprint(bycol[a-1:b])\n\tif b == m:\n\t\tprint(\"NO\")\n\telse:\n\t\tif bycol[b] - bycol[a] > 10:\n\t\t\tprint(\"NO\")\n\t\telse:\n\t\t\tprint(\"YES\")\n",
+        "parser_output": {
+            "error_line": 16,
+            "error_offset": 3,
+            "error_text": "\t\tprint(bycol[a-1:b])\n",
+            "error_type": "expected an indented block",
+            "source": null
+        },
+        "partition": "training",
+        "python_major": 3
+    },
+    {
+        "annotation": [
+            {
+                "feedback": "In line 1, the `for` keyword was mistyped to `or`. Correcting this mistyping resolves the error.",
+                "fixed_program": "for s in input():\n c=[];a=b=0\n for d in map(int,s.split()):a|=0<d<=b;a+=d\n print(*(c,[-1])[a])\n"
+            }
+        ],
+        "bad_program_EventID": "cf2",
+        "buggy_program": "or s in input():\n c=[];a=b=0\n for d in map(int,s.split()):a|=0<d<=b;a+=d\n print(*(c,[-1])[a])\n",
+        "parser_output": {
+            "error_line": 1,
+            "error_offset": 1,
+            "error_text": "or s in input():\n",
+            "error_type": "invalid syntax",
+            "source": null
+        },
+        "partition": "training",
+        "python_major": 3
+    },
+    {
+        "annotation": [
+            {
+                "feedback": "In line 7, probably you want to compare `s` and `tmp` to see whether they are different. If so, use the `!=` operator.\nIn line 13, a colon was missing for the `if` statement. Adding the colon fixes the error.",
+                "fixed_program": "ip = int(input())\ndef return_val(ip):\n\tfor i in range(ip):\n\t\ts = input()\n\t\ttmp = \"Yes\"\n\t\tfor _ in s:\n\t\t\tif s != tmp:\n\t\t\t\tprint(\"NO\")\n\t\t\t\tbreak\n\t\t\telse:\n\t\t\t\tprint(\"Yes\")\n\t\t\t\tbreak\nif __name__==\"__main__\":\n\treturn_val(ip)\n"
+            }
+        ],
+        "bad_program_EventID": "cf3",
+        "buggy_program": "ip = int(input())\ndef return_val(ip):\n\tfor i in range(ip):\n\t\ts = input()\n\t\ttmp = \"Yes\"\n\t\tfor _ in s:\n\t\t\tif s not tmp:\n\t\t\t\tprint(\"NO\")\n\t\t\t\tbreak\n\t\t\telse:\n\t\t\t\tprint(\"Yes\")\n\t\t\t\tbreak\nif __name__==\"__main__\"\n\treturn_val(ip)\n",
+        "parser_output": {
+            "error_line": 7,
+            "error_offset": 13,
+            "error_text": "\t\t\tif s not tmp:\n",
+            "error_type": "invalid syntax",
+            "source": null
+        },
+        "partition": "training",
+        "python_major": 3
+    }
+]

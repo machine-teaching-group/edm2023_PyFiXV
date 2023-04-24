@@ -1,0 +1,3 @@
+The code is missing a multiplication sign between the string and the variable `num`.
+
+The code can be fixed by adding a multiplication sign between the string and the variable `num`.

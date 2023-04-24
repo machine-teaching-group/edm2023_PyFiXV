@@ -1,0 +1,25 @@
+{
+	"Codex_e": {
+		"instruction": {
+			"general": "Fix the syntax errors in this Python {py_major} code",
+			"specific": "Fix the syntax errors in this Python {py_major} code, it says \"{err_mes}\" at \"{line_content}\""
+		},
+		"br_instruction": "The syntax error in this Python {py_major} code is: {explanation}"
+	},
+	"Codex_c": {
+		"fewshot": {
+			"template": {
+				"buggy": {
+					"target_example": "# [BUGGY PYTHON {py_major}]\n{buggy_program}\n\n# [FEEDBACK] The syntax error in this Python {py_major} code is:",
+					"shot":           "# [BUGGY PYTHON {py_major}]\n{buggy_program}\n\n# [FEEDBACK] The syntax error in this Python {py_major} code is: {explanation} [END]\n",
+					"prompt": "# Python {py_major}\n# Give feedback for the syntax error fixes below:\n\n{fewshots_explanation}\n{target_program_prompt}"
+				},
+				"buggy_and_diff": {
+					"target_example": "# [BUGGY PYTHON {py_major}]\n{buggy_program}\n\n# [FIX]\n{diff}\n\n# [FEEDBACK] The syntax error in this Python {py_major} code is:",
+					"shot":           "# [BUGGY PYTHON {py_major}]\n{buggy_program}\n\n# [FIX]\n{diff}\n\n# [FEEDBACK] The syntax error in this Python {py_major} code is: {explanation} [END]\n",
+					"prompt": "# Python {py_major}\n# Give feedback for the syntax error fixes below:\n\n{fewshots_explanation}\n{target_program_prompt}"
+				}
+			}
+		}
+	}
+}

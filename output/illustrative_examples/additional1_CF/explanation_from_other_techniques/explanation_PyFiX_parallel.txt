@@ -1,0 +1,1 @@
+ In line 7, the logical or operator `||` was mistyped as `| |`. Correcting this will fix the program.

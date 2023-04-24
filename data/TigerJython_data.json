@@ -1,0 +1,59 @@
+[
+    {
+        "annotation": [
+            {
+                "feedback": "An `if` statement needs to have a body. Here, the student leaves the body empty, which is invalid. Adding a pass statement to the empty body will help.",
+                "fixed_program": "#############################\n\nx = input ('Xxxxxxxx')\nwhile (x != 0):\n    \n    if (rest == 0):   \n       pass\n    else:  \n        (rest == 1 )\n        \n"
+            }
+        ],
+        "bad_program_EventID": "tj1",
+        "buggy_program": "#############################\n\nx = input ('Xxxxxxxx')\nwhile (x != 0):\n    \n    if (rest == 0):   \n    else:  \n        (rest == 1 )\n        \n",
+        "parser_output": {
+            "error_line": 7,
+            "error_offset": 8,
+            "error_text": "    else:  \n",
+            "error_type": "expected an indented block",
+            "source": null
+        },
+        "partition": "training",
+        "python_major": 2
+    },
+    {
+        "annotation": [
+            {
+                "feedback": "Every opening parenthesis needs to be complemented by a closing parenthesis. In this program, the student forgets a closing parenthesis at the end of line 6. Adding the closing parenthesis will fix the program.",
+                "fixed_program": "from gturtle import *\ndef onClick(a,b):\n    setPos(x,y)\n    if (-10<x<10) and (-10<y<10):\n        setPenColor('xxx')\n        dot(sqrt(x+y))\n    else:\n        setPenColor('xxxx')\n        dot(100)"
+            }
+        ],
+        "bad_program_EventID": "tj2",
+        "buggy_program": "from gturtle import *\ndef onClick(a,b):\n    setPos(x,y)\n    if (-10<x<10) and (-10<y<10):\n        setPenColor('xxx')\n        dot(sqrt(x+y)\n    else:\n        setPenColor('xxxx')\n        dot(100)",
+        "parser_output": {
+            "error_line": 7,
+            "error_offset": 8,
+            "error_text": "    else:\n",
+            "error_type": "invalid syntax",
+            "source": null
+        },
+        "partition": "training",
+        "python_major": 2
+    },
+    {
+        "annotation": [
+            {
+                "feedback": "'print' is a keyword in Python 2, thus, it is not possible to pass arguments to it (i.e., like in Python 3, where you can pass the argument 'end').\r\n\r\nCan be fixed by removing \"end=','\" on line 5.\n`Else` on line 6 is indented incorrectly (additional space present).\r\n\r\nCan be corrected by removing a space before else on line 6.",
+                "fixed_program": "from random import randint, seed\ninp = input('Xxxx xxxxx')\nrandom_number = randint(0, 99)\nif inp < random_number:\n    print('| ', random_number, ' x xxxXxxx xxxx')\nelse:\n    random_number = inp"
+            }
+        ],
+        "bad_program_EventID": "tj3",
+        "buggy_program": "from random import randint, seed\ninp = input('Xxxx xxxxx')\nrandom_number = randint(0, 99)\nif inp < random_number:\n    print('| ', random_number, ' x xxxXxxx xxxx', end=',')\n else:\n    random_number = inp",
+        "parser_output": {
+            "error_line": 5,
+            "error_offset": 54,
+            "error_text": "    print('| ', random_number, ' x xxxXxxx xxxx', end=',')\n",
+            "error_type": "invalid syntax",
+            "source": null
+        },
+        "partition": "training",
+        "python_major": 2
+    }
+]

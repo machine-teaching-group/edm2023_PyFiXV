@@ -1,0 +1,1 @@
+ The student is trying to print the name and the number of times the name should be printed. The student is using the multiplication operator "*" to print the name multiple times. However, the multiplication operator is not used to print a string multiple times. To fix the error, we replace the multiplication operator with the concatenation operator "+".

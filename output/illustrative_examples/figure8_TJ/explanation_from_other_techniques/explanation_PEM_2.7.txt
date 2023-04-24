@@ -1,0 +1,4 @@
+line 3
+    print ("Xxxx " + name + "Xxx ")*,num
+                                    ^
+SyntaxError: invalid syntax

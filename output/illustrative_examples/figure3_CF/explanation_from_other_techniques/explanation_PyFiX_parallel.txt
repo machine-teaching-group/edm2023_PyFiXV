@@ -1,0 +1,1 @@
+ In line 6, the `^^` operator is invalid. It should be replaced by `^`.

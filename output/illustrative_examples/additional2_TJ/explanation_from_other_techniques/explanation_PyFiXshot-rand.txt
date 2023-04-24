@@ -1,0 +1,2 @@
+ The input statement on Line 9, contains an assignment operator. Removing this operator resolves the error. Input statements cannot have an assignment operator.
+On Line 9, the variable num variable has additional ".." characters after its call. This results in a invalid variable and is the cause of the error. Removing the ".." resolves the error. Generally, variable names in python cannot contain "." character.

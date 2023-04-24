@@ -1,0 +1,1 @@
+ The student wants to use the print function from Python 3. To do so, the correct way is to add the line `from __future__ import print_function` at the beginning of the code. 

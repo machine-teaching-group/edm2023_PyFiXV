@@ -1,0 +1,27 @@
+
+#
+#     result = input("Xxx xxxxx Xxxx"..num)
+#
+# The error is that the ".." operator is not defined in Python 2.
+#
+# The fix is to replace ".." with "+str(num)".
+#
+# The reason is that the ".." operator is defined in Python 3, but not in Python 2.
+#
+# The ".." operator is used to concatenate strings in Python 3.
+#
+# In Python 2, the "+" operator is used to concatenate strings.
+#
+# The "str(num)" is used to convert the integer "num" to a string.
+#
+# The "str(num)" is needed because the "input" function expects a string.
+#
+# The "input" function is used to get input from the user.
+#
+# The "input" function is used to get input from the user.
+#
+# The "input" function is used to get input from the user.
+#
+# The "input" function is used to get input from the user.
+#
+# The "input" function is used to get input from

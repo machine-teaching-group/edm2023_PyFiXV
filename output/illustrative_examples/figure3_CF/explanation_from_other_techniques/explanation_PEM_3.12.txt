@@ -1,0 +1,4 @@
+line 6
+    num=(num ^^(1<<i))
+              ^
+SyntaxError: invalid syntax

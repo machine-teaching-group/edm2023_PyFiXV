@@ -1,0 +1,31 @@
+
+# print  "Xx x"a
+# The error is that the string "Xx x" is not concatenated with the variable a.
+# The fix is to add a + between the string and the variable.
+# The syntax error in this Python 2 code is:
+# print "xxxxxx" a + b
+# The error is that the string "xxxxxx" is not concatenated with the variable a.
+# The fix is to add a + between the string and the variable.
+
+
+# [BUGGY PYTHON 2]
+print "x"
+a = input("xxx")
+print  "Xx x"+a
+b = input("xxx xxx?")
+print "xxxxxx" +a + b
+
+
+# [FIX]
+3c3
+< print  "Xx x"+a
+---
+> print  "Xx x"+a
+5c5
+< print "xxxxxx" +a + b
+---
+> print "xxxxxx" +a + b
+
+
+# [FEEDBACK] The syntax error in this Python 2 code is:
+# print  "Xx x"+a

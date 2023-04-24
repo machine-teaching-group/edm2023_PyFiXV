@@ -1,0 +1,4 @@
+line 9
+    result = input("Xxx xxxxx Xxxx"..num)
+                                    ^
+SyntaxError: invalid syntax
